@@ -11,7 +11,8 @@ GoogleLeNet
 YOLO
 SqueezeNet
 Faster R-CNN
-ResNet
+ResNet 
+
 The above model establish the following arguments:
 
 video: Path file video.
@@ -25,6 +26,7 @@ Download the pretrained model files namely 'MobileNetSSD_deploy.prototxt' and 'M
 Check if the video camera in your device works properly. Code switches it on automatically once the code starts.
 Use the below commond to execute the python file:- python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel (if this doesn't work, try giving absolute paths or set project directory)
 
-Workflow of dnn in OpenCV
+Workflow of dnn in OpenCV:
+
 loading model--selecting backend--selecting target--reading frame from camera 
 --converting image to blob--forwarding--post process
