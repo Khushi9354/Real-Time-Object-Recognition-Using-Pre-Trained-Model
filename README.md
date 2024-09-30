@@ -1,36 +1,26 @@
-Using pre-trained MobileNet SSD for Real Time Multi-Class-Object Detection
-There are two type of deep neural networks here.
+# Object Detection with MobileNet SSD
 
-Base network
-detection network
-MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provide high level features for classification or detection. For classification we add a fully connected layer at the end of this networks. But if we remove fully connected layer and replace it with detection networks, like SSD, Faster R-CNN, and so on. In fact, SSD use of last convolutional layer on base networks for detection task. MobileNet just like other base networks use of convolution to produce high level features.
+## Overview
 
-This module loads pre-trained model for multiclass object detection from a video feed. Besides MobileNet-SDD other architectures can also be used for the same:
+This project implements real-time object detection using the MobileNet SSD model. The code utilizes OpenCV and its deep learning module to detect various classes of objects from a webcam feed.
 
-GoogleLeNet
+## Features
 
-YOLO
+- Real-time object detection from webcam feed.
+- Displays bounding boxes and confidence scores for detected objects.
+- Supports multiple classes of objects.
 
-SqueezeNet
+## Requirements
 
-Faster R-CNN
+- Python 3.x
+- OpenCV
+- NumPy
+- imutils
 
-ResNet 
+## Installation
 
-The above model establish the following arguments:
+1. Clone the repository:
 
-video: Path file video.
-prototxt: Network file is .prototxt
-weights: Network weights file is .caffemodel
-thr: Confidence threshold.L
-
-Runnning this file
-
-Download the pretrained model files namely 'MobileNetSSD_deploy.prototxt' and 'MobileNetSSD_deploy.caffemodel' files.
-Check if the video camera in your device works properly. Code switches it on automatically once the code starts.
-Use the below commond to execute the python file:- python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel (if this doesn't work, try giving absolute paths or set project directory)
-
-Workflow of dnn in OpenCV:
-
-loading model--selecting backend--selecting target--reading frame from camera 
---converting image to blob--forwarding--post process
+   ```bash
+   git clone https://github.com/yourusername/yourproject.git
+   cd yourproject
