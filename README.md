@@ -29,3 +29,79 @@ This project implements real-time object detection using the MobileNet SSD model
 ## Install the required libraries:
 
 pip install opencv-python numpy imutils
+
+##Download the MobileNet SSD model files:
+
+MobileNetSSD_deploy.prototxt.txt
+MobileNetSSD_deploy.caffemodel
+
+Place these files in the same directory as your script.
+
+## Usage 
+Run the script:
+
+python your_script_name.py
+
+##Code Explanation
+
+The code loads the MobileNet SSD model and initializes the webcam.
+Each frame is resized and processed to detect objects.
+Detected objects are displayed with bounding boxes and labels.
+
+##Classes
+The model recognizes the following classes:
+
+background
+aeroplane
+bicycle
+bird
+boat
+bottle
+bus
+car
+cat
+chair
+cow
+dining table
+dog
+horse
+motorbike
+person
+potted plant
+sheep
+sofa
+train
+tvmonitor
+
+##Contributing
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+
+##Acknowledgments
+OpenCV
+MobileNet SSD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
