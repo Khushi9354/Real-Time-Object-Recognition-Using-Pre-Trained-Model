@@ -24,3 +24,8 @@ This project implements real-time object detection using the MobileNet SSD model
    ```bash
    git clone https://github.com/yourusername/yourproject.git
    cd yourproject
+
+
+## Install the required libraries:
+
+pip install opencv-python numpy imutils
