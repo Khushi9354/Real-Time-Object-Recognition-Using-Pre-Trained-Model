@@ -45,13 +45,13 @@ python your_script_name.py
 The webcam feed will start, and the model will detect objects in real-time. Press Esc to exit.
 
 
-##Code Explanation
+## Code Explanation
 
 The code loads the MobileNet SSD model and initializes the webcam.
 Each frame is resized and processed to detect objects.
 Detected objects are displayed with bounding boxes and labels.
 
-##Classes
+## Classes
 The model recognizes the following classes:
 
 background,
@@ -76,10 +76,10 @@ sofa,
 train,
 tvmonitor,
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
 
-##Acknowledgments
+## Acknowledgments
 OpenCV
 MobileNet SSD
 
