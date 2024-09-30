@@ -42,6 +42,9 @@ Run the script:
 
 python your_script_name.py
 
+The webcam feed will start, and the model will detect objects in real-time. Press Esc to exit.
+
+
 ##Code Explanation
 
 The code loads the MobileNet SSD model and initializes the webcam.
@@ -51,27 +54,27 @@ Detected objects are displayed with bounding boxes and labels.
 ##Classes
 The model recognizes the following classes:
 
-background
-aeroplane
-bicycle
-bird
-boat
-bottle
-bus
-car
-cat
-chair
-cow
-dining table
-dog
-horse
-motorbike
-person
-potted plant
-sheep
-sofa
-train
-tvmonitor
+background,
+aeroplane,
+bicycle,
+bird,
+boat,
+bottle,
+bus,
+car,
+cat,
+chair,
+cow,
+dining table,
+dog,
+horse,
+motorbike,
+person,
+potted plant,
+sheep,
+sofa,
+train,
+tvmonitor,
 
 ##Contributing
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
